@@ -33,8 +33,8 @@ bot.on('message', (message) => {
 
     let chat_id = message.from.id;
 
-    bot.sendMessage(chat_id, convertHash(message.text));
+    bot.sendMessage(chat_id, convertHash(message));
 
-    bot.sendMessage(chat_id, "Please send blockchain Hash to convert" + message.text);
+    bot.sendMessage(chat_id, "Please send blockchain Hash to convert" + message);
 
 });
