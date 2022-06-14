@@ -52,7 +52,7 @@ bot.on('message', (message) => {
 	if(message.text === '/start'){
 
 	bot.sendMessage(chat_id, `CryptRobot of @coinvs is at your service, 
-	send blockchain hash to convert to a number.
+	send blockchain hash to convert it to a number.
 	
 	Example: 
 	84vmWvKxebcnZL5JPnqkzPFVBaL4y5uGCRRJW2a9P4SL`);	
@@ -66,7 +66,7 @@ bot.on('message', (message) => {
 	shortHash = convertToShortHash(message.text);
 	let blockRandomNumb = convertHashToNumber(shortHash);
 	
-    bot.sendMessage(chat_id, `Here is your hash converted to a number:
+    	bot.sendMessage(chat_id, `Here is your hash converted to a number:
 	
 	${blockRandomNumb}`);
 	
