@@ -1,8 +1,12 @@
 # blockrandom-telegram-bot
-BlockRandom Telegram Bot converts blockchain hash into random number @BlockRandomBot
 
+
+BlockRandom Telegram Bot converts blockchain hash into random number @BlockRandomBot
 https://t.me/BlockRandomBot
 
-start
+<a href="https://t.me/BlockRandomBot"> ![CryptRobot](https://raw.githubusercontent.com/CoinVs/blockrandom-telegram-bot/master/cryptroversus.png) </a>
 
-send your hash
+Commands: 
+
+/start
+
