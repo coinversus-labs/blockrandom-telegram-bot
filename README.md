@@ -1,5 +1,12 @@
 # blockrandom-telegram-bot
 
+```
+npm install
+```
+
+```
+node src/index.js
+```
 
 BlockRandom Telegram Bot converts blockchain hash into a random number 
 ```
